@@ -1,4 +1,4 @@
-package com.id3.both_client_server_soap_service.consume;
+package com.id3.both_client_server_soap_service.client;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
