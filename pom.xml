@@ -79,9 +79,9 @@
 					</execution>
 				</executions>
 				<configuration>
-					<packageName>com.id3.webservice.wsdl</packageName>
+					<packageName>com.id3.both_client_server_soap_service</packageName>
 					<wsdlUrls>
-						<wsdlUrl>http://localhost:8080/ws/countries.wsdl</wsdlUrl>
+						<wsdlUrl>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl</wsdlUrl>
 					</wsdlUrls>
 					<sourceDestDir>${sourcesDir}</sourceDestDir>
 					<destDir>${classesDir}</destDir>
