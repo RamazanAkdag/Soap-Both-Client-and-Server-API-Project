@@ -1,0 +1,27 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://id3.com/soapservice"
+           targetNamespace="http://id3.com/soapservice" elementFormDefault="qualified">
+
+    <xs:element name="CountryLanguageInfosRequest" type="tns:CountryLanguageInfosRequest"/>
+
+    <xs:complexType name="CountryLanguageInfosRequest">
+        <xs:sequence>
+            <!-- No elements needed -->
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="CountryLanguageInfosResponse" type="tns:CountryLanguageInfosResponse"/>
+
+    <xs:complexType name="CountryLanguageInfosResponse">
+        <xs:sequence>
+            <xs:element name="CountryName" type="xs:string"/>
+            <xs:element name="Languages" type="tns:LanguageList"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="LanguageList">
+        <xs:sequence>
+            <xs:element name="Language" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

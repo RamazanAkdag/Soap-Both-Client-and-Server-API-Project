@@ -1,6 +1,7 @@
 package com.id3.both_client_server_soap_service;
 
 import com.id3.both_client_server_soap_service.client.CountryClient;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
